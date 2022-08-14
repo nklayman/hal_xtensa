@@ -118,7 +118,7 @@
 #define XCHAL_HAVE_HIFI3Z_VFPU	0	/* HiFi3Z Audio Engine VFPU option */
 #define XCHAL_HAVE_HIFI2		0	/* HiFi2 Audio Engine pkg */
 #define XCHAL_HAVE_HIFI2EP		0	/* HiFi2EP */
-#define XCHAL_HAVE_HIFI_MINI		0	
+#define XCHAL_HAVE_HIFI_MINI		0
 
 
 
@@ -242,7 +242,7 @@
 #define XCHAL_DCACHE_LINEWIDTH		6	/* log2(D line size in bytes) */
 
 #define XCHAL_ICACHE_SIZE		16384	/* I-cache size in bytes or 0 */
-#define XCHAL_DCACHE_SIZE		49152	/* D-cache size in bytes or 0 */
+#define XCHAL_DCACHE_SIZE		0	/* D-cache size in bytes or 0 */
 
 #define XCHAL_DCACHE_IS_WRITEBACK	1	/* writeback feature */
 #define XCHAL_DCACHE_IS_COHERENT	0	/* MP coherence feature */
@@ -614,13 +614,13 @@
 /*----------------------------------------------------------------------
 				MPU
   ----------------------------------------------------------------------*/
-#define XCHAL_HAVE_MPU			0 
+#define XCHAL_HAVE_MPU			0
 #define XCHAL_MPU_ENTRIES		0
 
 #define XCHAL_MPU_ALIGN_REQ		1	/* MPU requires alignment of entries to background map */
 #define XCHAL_MPU_BACKGROUND_ENTRIES	0	/* number of entries in bg map*/
 #define XCHAL_MPU_BG_CACHEADRDIS	0	/* default CACHEADRDIS for bg */
- 
+
 #define XCHAL_MPU_ALIGN_BITS		0
 #define XCHAL_MPU_ALIGN			0
 

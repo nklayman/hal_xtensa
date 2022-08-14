@@ -242,7 +242,7 @@
 #define XCHAL_DCACHE_LINEWIDTH		6	/* log2(D line size in bytes) */
 
 #define XCHAL_ICACHE_SIZE		16384	/* I-cache size in bytes or 0 */
-#define XCHAL_DCACHE_SIZE		49152	/* D-cache size in bytes or 0 */
+#define XCHAL_DCACHE_SIZE		0	/* D-cache size in bytes or 0 */
 
 #define XCHAL_DCACHE_IS_WRITEBACK	1	/* writeback feature */
 #define XCHAL_DCACHE_IS_COHERENT	0	/* MP coherence feature */
